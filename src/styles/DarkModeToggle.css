@@ -1,0 +1,13 @@
+/* src/styles/DarkModeToggle.css */
+.dark-mode-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .app.dark-mode .dark-mode-toggle {
+    color: #fff;
+  }
+  

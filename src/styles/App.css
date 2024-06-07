@@ -1,0 +1,110 @@
+/* src/styles/App.css */
+
+/* Common Styles */
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Light Mode Styles */
+  .app.light-mode {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .header.light-mode {
+    background-color: #f9f9f9;
+  }
+  
+  .search-bar.light-mode input {
+    background-color: #f1f1f1;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-dropdown.light-mode {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .todo-item.light-mode {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .add-todo-button.light-mode {
+    background-color: #007bff;
+  }
+  
+  .modal-overlay.light-mode {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content.light-mode {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Dark Mode Styles */
+  .app.dark-mode {
+    background-color: #444;
+    color: #f0f0f0;
+  }
+  
+  .header.dark-mode {
+    background-color: #3a3a3a;
+  }
+  
+  .search-bar.dark-mode input {
+    background-color: #444;
+    color: #f0f0f0;
+    border: 1px solid #666;
+  }
+  
+  .filter-dropdown.dark-mode {
+    background-color: #444;
+    color: #f0f0f0;
+  }
+  
+  .todo-item.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .add-todo-button.dark-mode {
+    background-color: #444;
+  }
+  
+  .modal-overlay.dark-mode {
+    background-color: #444;
+  }
+  
+  .modal-content.dark-mode {
+    background-color: #444;
+    color: #f0f0f0;
+  }
+  
+  .modal-input.dark-mode {
+    background-color: #555;
+    color: #f0f0f0;
+    border: 1px solid #666;
+  }
+  
+  .cancel-button.dark-mode {
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .apply-button.dark-mode {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Button Hover Effects */
+  .cancel-button:hover, .apply-button:hover {
+    opacity: 0.8;
+  }
+  

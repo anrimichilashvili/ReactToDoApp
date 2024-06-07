@@ -1,0 +1,22 @@
+/* src/styles/FilterDropdown.css */
+.filter-dropdown {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .filter-dropdown option {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Dark mode */
+  .app.dark-mode .filter-dropdown {
+    background-color: #333;
+    color: #fff;
+  }
+  

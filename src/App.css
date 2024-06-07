@@ -1,0 +1,26 @@
+/* src/styles/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.app.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.header {
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.dark-mode {
+  background-color: #444;
+}
+
+/* Additional styles based on the UI kit */

@@ -1,0 +1,14 @@
+/* src/styles/index.css */
+
+/* Ensure the body background changes with the mode */
+body.light-mode {
+  background-color: #ffffff;
+  color: #444;
+}
+
+body.dark-mode {
+  background-color: #444;
+  color: #ffffff;
+}
+
+/* Additional global styles can be added here */

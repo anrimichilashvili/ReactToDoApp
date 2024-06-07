@@ -1,0 +1,25 @@
+/* src/styles/TodoList.css */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px; /* Adjust as needed to center content */
+  text-align: center;
+}
+
+.empty-state-image {
+  width: 200px; /* Adjust the size to fit the design */
+  margin-bottom: 20px;
+}
+
+.empty-state-message {
+  font-size: 18px;
+  color: #666; /* Light gray color for the message */
+}

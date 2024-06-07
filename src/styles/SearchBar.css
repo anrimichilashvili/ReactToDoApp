@@ -1,0 +1,40 @@
+/* src/styles/SearchBar.css */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 300px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: inherit;
+  }
+  
+  .search-bar .search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .search-bar .search-icon {
+    font-size: 20px;
+  }
+  
+  /* Dark mode */
+  .app.dark-mode .search-bar {
+    background-color: #333;
+  }
+  
+  .app.dark-mode .search-bar input {
+    color: #fff;
+  }
+  
